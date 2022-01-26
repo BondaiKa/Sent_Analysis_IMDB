@@ -16,7 +16,7 @@ from tensorflow.keras.datasets.imdb import get_word_index
 
 MODEL_NAME = '' # add model name here
 MODEL_FOLDER_PATH = "lstm_notebooks"
-model_path = f"{MODEL_FOLDER_PATH}_{MODEL_NAME}"
+model_path = f"{MODEL_FOLDER_PATH}/{MODEL_NAME}"
 
 
 model = tf.keras.models.load_model(model_path)
