@@ -133,3 +133,4 @@ dataset/
 aclImdb/
 docs/
 *tar.gz
+tmp/
